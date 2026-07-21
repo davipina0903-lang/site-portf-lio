@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="pt-BR" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Davi Pina — Product &amp; Brand Designer</title>
+<meta name="description" content="Portfolio de Davi Pina — design de produto, branding e social media.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+
+<div class="preloader" id="preloader" aria-hidden="true">
+  <span class="preloader-text">DP</span>
+</div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="logo">Davi Pina</a>
+    <nav class="main-nav">
+      <a href="#work" data-i18n="nav.work">Work</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#trace" data-i18n="nav.trace">Traçe</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+    </nav>
+    <div class="header-right">
+      <span class="status-pill"><span class="status-dot"></span><span data-i18n="nav.available">Available for work</span></span>
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Toggle language">
+        <span class="lang-en">EN</span><span class="lang-sep">/</span><span class="lang-pt">PT</span>
+      </button>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#work" data-i18n="nav.work">Work</a>
+  <a href="#about" data-i18n="nav.about">About</a>
+  <a href="#trace" data-i18n="nav.trace">Traçe</a>
+  <a href="#contact" data-i18n="nav.contact">Contact</a>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-split">
+
+      <div class="hero-visual">
+        <img id="heroVisualImg" class="hero-visual-img" src="assets/img/project-branding.webp" alt="">
+        <div class="hero-visual-tone" aria-hidden="true"></div>
+        <div class="hero-visual-scan" aria-hidden="true"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="container hero-inner">
+          <p class="eyebrow reveal-up" data-i18n="hero.eyebrow">Portfolio — 2026</p>
+
+          <h1 class="hero-title">
+            <span class="reveal-up" data-i18n="hero.line1">DESIGN</span>
+            <span class="reveal-up outline" data-i18n="hero.line2">WITH</span>
+            <span class="reveal-up glitch-title" data-text="INTENTION.">
+              <span data-i18n="hero.line3">INTENTION.</span>
+            </span>
+          </h1>
+
+          <div class="hero-select">
+            <span class="hero-select-label reveal-up" data-i18n="hero.selected">Selected</span>
+            <span class="hero-select-line reveal-up" aria-hidden="true"></span>
+          </div>
+
+          <ul class="hero-worklist reveal-up" id="heroWorkList">
+            <li class="hero-work-item is-active">
+              <span class="hw-name" data-i18n="projects.branding.name">Branding</span>
+              <span class="hw-cat" data-i18n="projects.branding.category">Brand Identity — Traçe</span>
+              <span class="hw-year">2026</span>
+            </li>
+            <li class="hero-work-item">
+              <span class="hw-name" data-i18n="projects.carousel.name">Instagram Carousel</span>
+              <span class="hw-cat" data-i18n="projects.carousel.category">Social Media Design</span>
+              <span class="hw-year">2025</span>
+            </li>
+            <li class="hero-work-item">
+              <span class="hw-name" data-i18n="projects.landing.name">Landing Page</span>
+              <span class="hw-cat" data-i18n="projects.landing.category">Web Design — TaskFlow</span>
+              <span class="hw-year">2025</span>
+            </li>
+            <li class="hero-work-item">
+              <span class="hw-name" data-i18n="projects.post.name">Instagram Post</span>
+              <span class="hw-cat" data-i18n="projects.post.category">Social Media — RAWBRAND</span>
+              <span class="hw-year">2025</span>
+            </li>
+            <li class="hero-work-item">
+              <span class="hw-name" data-i18n="projects.poster.name">Poster</span>
+              <span class="hw-cat" data-i18n="projects.poster.category">Poster Design — RAWBRAND</span>
+              <span class="hw-year">2025</span>
+            </li>
+            <li class="hero-work-item">
+              <span class="hw-name" data-i18n="projects.card.name">Product Card</span>
+              <span class="hw-cat" data-i18n="projects.card.category">UI Design — E-commerce</span>
+              <span class="hw-year">2024</span>
+            </li>
+            <li class="hero-work-item">
+              <span class="hw-name" data-i18n="projects.thumb.name">Thumbnail</span>
+              <span class="hw-cat" data-i18n="projects.thumb.category">Cover Design</span>
+              <span class="hw-year">2024</span>
+            </li>
+          </ul>
+
+          <div class="hero-bottom">
+            <p class="hero-desc reveal-up" data-i18n="hero.desc">UI/UX, brand &amp; social media design — turning ideas into interfaces and identities people notice.</p>
+            <a href="#work" class="hero-cta reveal-up">
+              <span data-i18n="hero.cta">View Work</span>
+              <span class="cta-arrow">↓</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="scroll-cue" aria-hidden="true">
+      <span data-i18n="hero.scroll">Scroll</span>
+      <span class="scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about section">
+    <div class="container about-grid">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="about.eyebrow">01 — About</span>
+        <h2 data-i18n="about.title">Who I am</h2>
+      </div>
+      <div class="about-content">
+        <p class="about-text large" data-i18n="about.p1">I'm a visual and product designer at the very start of my career, focused on turning ideas into clean, purposeful interfaces and brands.</p>
+        <p class="about-text" data-i18n="about.p2">I don't have professional experience yet — what I do have is a growing body of independent work across branding, social media and UI design, and a genuine obsession with getting the small details right. Right now I'm designing and building my first app end-to-end: Traçe.</p>
+        <ul class="skills-list">
+          <li data-i18n="about.skill1">UI / UX Design</li>
+          <li data-i18n="about.skill2">Brand Identity</li>
+          <li data-i18n="about.skill3">Social Media Design</li>
+          <li data-i18n="about.skill4">Art Direction</li>
+          <li data-i18n="about.skill5">Product Thinking</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="work section">
+    <div class="container">
+      <div class="section-head work-head">
+        <span class="eyebrow" data-i18n="work.eyebrow">02 — Selected Work</span>
+        <h2 data-i18n="work.title">Projects</h2>
+        <p class="work-hint" data-i18n="work.hint">Hover over a project name to preview it on the side.</p>
+      </div>
+
+      <div class="work-layout">
+        <ul class="work-list" id="workList">
+
+          <li class="work-item" data-img="assets/img/project-branding.webp">
+            <button class="work-item-btn">
+              <span class="work-index">01</span>
+              <span class="work-name" data-i18n="projects.branding.name">Branding</span>
+              <span class="work-category" data-i18n="projects.branding.category">Brand Identity — Traçe</span>
+              <span class="work-arrow">→</span>
+            </button>
+            <div class="work-item-preview-mobile"><img loading="lazy" src="assets/img/project-branding.webp" alt="Traçe brand identity"></div>
+          </li>
+
+          <li class="work-item" data-img="assets/img/project-carousel-1.webp" data-carousel="1,2,3,4,5,6,7">
+            <button class="work-item-btn">
+              <span class="work-index">02</span>
+              <span class="work-name" data-i18n="projects.carousel.name">Instagram Carousel</span>
+              <span class="work-category" data-i18n="projects.carousel.category">Social Media Design</span>
+              <span class="work-arrow">→</span>
+            </button>
+            <div class="work-item-preview-mobile"><img loading="lazy" src="assets/img/project-carousel-1.webp" alt="Instagram carousel — consumer psychology"></div>
+          </li>
+
+          <li class="work-item" data-img="assets/img/project-landing-page.webp">
+            <button class="work-item-btn">
+              <span class="work-index">03</span>
+              <span class="work-name" data-i18n="projects.landing.name">Landing Page</span>
+              <span class="work-category" data-i18n="projects.landing.category">Web Design — TaskFlow</span>
+              <span class="work-arrow">→</span>
+            </button>
+            <div class="work-item-preview-mobile"><img loading="lazy" src="assets/img/project-landing-page.webp" alt="TaskFlow landing page"></div>
+          </li>
+
+          <li class="work-item" data-img="assets/img/project-post-instagram.webp">
+            <button class="work-item-btn">
+              <span class="work-index">04</span>
+              <span class="work-name" data-i18n="projects.post.name">Instagram Post</span>
+              <span class="work-category" data-i18n="projects.post.category">Social Media — RAWBRAND</span>
+              <span class="work-arrow">→</span>
+            </button>
+            <div class="work-item-preview-mobile"><img loading="lazy" src="assets/img/project-post-instagram.webp" alt="RAWBRAND Instagram post"></div>
+          </li>
+
+          <li class="work-item" data-img="assets/img/project-poster.webp">
+            <button class="work-item-btn">
+              <span class="work-index">05</span>
+              <span class="work-name" data-i18n="projects.poster.name">Poster</span>
+              <span class="work-category" data-i18n="projects.poster.category">Poster Design — RAWBRAND</span>
+              <span class="work-arrow">→</span>
+            </button>
+            <div class="work-item-preview-mobile"><img loading="lazy" src="assets/img/project-poster.webp" alt="RAWBRAND poster design"></div>
+          </li>
+
+          <li class="work-item" data-img="assets/img/project-product-card.webp">
+            <button class="work-item-btn">
+              <span class="work-index">06</span>
+              <span class="work-name" data-i18n="projects.card.name">Product Card</span>
+              <span class="work-category" data-i18n="projects.card.category">UI Design — E-commerce</span>
+              <span class="work-arrow">→</span>
+            </button>
+            <div class="work-item-preview-mobile"><img loading="lazy" src="assets/img/project-product-card.webp" alt="RAWBRAND product card UI"></div>
+          </li>
+
+          <li class="work-item" data-img="assets/img/project-thumbnail.webp">
+            <button class="work-item-btn">
+              <span class="work-index">07</span>
+              <span class="work-name" data-i18n="projects.thumb.name">Thumbnail</span>
+              <span class="work-category" data-i18n="projects.thumb.category">Cover Design</span>
+              <span class="work-arrow">→</span>
+            </button>
+            <div class="work-item-preview-mobile"><img loading="lazy" src="assets/img/project-thumbnail.webp" alt="Os Donos da Nova Cena thumbnail"></div>
+          </li>
+
+        </ul>
+
+        <div class="work-preview" id="workPreview" aria-hidden="true">
+          <div class="work-preview-frame">
+            <img id="workPreviewImg" src="assets/img/project-branding.webp" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRACE -->
+  <section id="trace" class="trace section">
+    <div class="container trace-grid">
+      <div class="section-head">
+        <span class="eyebrow" data-i18n="trace.eyebrow">03 — In Progress</span>
+        <h2 data-i18n="trace.title">Traçe</h2>
+        <p class="trace-tag" data-i18n="trace.tag">Your Trace. Your Style.</p>
+      </div>
+
+      <div class="trace-media">
+        <img src="assets/img/project-trace-dev.webp" alt="Traçe app development screens" loading="lazy">
+        <span class="trace-media-caption" data-i18n="trace.caption">Work in progress — early product screens</span>
+      </div>
+
+      <div class="trace-content">
+        <p class="about-text large" data-i18n="trace.p1">Traçe is a fashion marketplace concept where independent brands and stores list their products for people to discover and buy — built around two core innovations.</p>
+
+        <div class="trace-feature">
+          <h3 data-i18n="trace.f1title">AI Style Scan</h3>
+          <p data-i18n="trace.f1desc">For people who feel they lack a defined personal style, Traçe reads a full-body scan alongside a short lifestyle questionnaire. Combining physical proportions with personal preferences, the AI generates tailored style recommendations — each linked directly to the piece for purchase.</p>
+        </div>
+
+        <div class="trace-feature">
+          <h3 data-i18n="trace.f2title">Virtual Fit Preview</h3>
+          <p data-i18n="trace.f2desc">Users can save a full-body photo with their exact measurements to preview any garment on the platform on their own body before buying — removing the guesswork from online fashion shopping.</p>
+        </div>
+
+        <div class="trace-feature">
+          <h3 data-i18n="trace.f3title">Community</h3>
+          <p data-i18n="trace.f3desc">Beyond shopping, users share their outfits for feedback and follow a feed of style inspiration and fashion education from other members — every look posted carries tappable tags linking straight to the pieces worn.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact section">
+    <div class="container contact-inner">
+      <span class="eyebrow" data-i18n="contact.eyebrow">04 — Contact</span>
+      <h2 class="contact-title" data-i18n="contact.title">Let's work<br>together.</h2>
+      <p class="contact-desc" data-i18n="contact.desc">Open to internships, junior roles and freelance projects. Reach out — I'd love to hear about it.</p>
+      <a href="mailto:davi.pina0903@gmail.com" class="contact-email">davi.pina0903@gmail.com</a>
+      <div class="contact-socials">
+        <a href="https://www.instagram.com/_.davipina/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.behance.net/davipina1" target="_blank" rel="noopener">Behance</a>
+        <a href="https://www.linkedin.com/in/davi-pina-2a755933a/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© 2026 Davi Pina</span>
+    <a href="#top" class="back-top" data-i18n="footer.top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
